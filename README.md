@@ -1,2 +1,2 @@
-# notihon
-Python library with Notion API, Notihon!
+# nothon
+Python library with Notion API, Nothon!
