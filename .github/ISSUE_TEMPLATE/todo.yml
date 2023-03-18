@@ -1,6 +1,6 @@
 name: todo
 description: To-Do
-labels: [kind: todo]
+labels: ["kind: todo"]
 body:
   - type: markdown
     attributes:
