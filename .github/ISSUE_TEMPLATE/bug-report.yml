@@ -1,0 +1,22 @@
+name: bug
+description: bug report
+labels: [kind: bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+
+        Before write bug report, check
+        * Not [duplicated](https://github.com/hannbyul/notapy/issues?q=is%3Aopen+is%3Aissue+label%3Akind%3A%20bug)
+
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: Description of Bug
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Envrionment & Setup
+      description: Description of Environments
