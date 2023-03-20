@@ -3,7 +3,7 @@
 
 import os
 from dotenv import load_dotenv
-from Notisql import version
+from notisql import Notisql
 
 # Load .env vaiables
 load_dotenv()
@@ -13,4 +13,5 @@ DATABASE_TOKEN = os.getenv("DATABASE_TOKEN")
 PAGE_TOKEN = os.getenv("PAGE_TOKEN")
 
 # Print version
-version()
+notisql = Notisql(notion_token=NOTION_TOKEN)
+notisql.version()
