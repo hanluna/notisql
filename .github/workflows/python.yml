@@ -27,4 +27,4 @@ jobs:
 
       - name: RUN TEST
         run: |
-          python notapy/workflow.py
+          python notisql/workflow.py
