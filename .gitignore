@@ -177,3 +177,6 @@ pyrightconfig.json
 
 # Environment variables
 .env
+
+# Test file
+test.*
