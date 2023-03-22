@@ -1,2 +1,3 @@
-# nothon
-Python library with Notion API, Nothon!
+# notisql
+
+Python library with Notion API, Notisql :D
